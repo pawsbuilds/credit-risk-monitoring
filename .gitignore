@@ -1,0 +1,18 @@
+# Data (jangan pernah di-commit)
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Model & output
+*.joblib
+*.pkl
+outputs/
